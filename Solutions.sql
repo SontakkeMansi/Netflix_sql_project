@@ -15,16 +15,7 @@ listed_in VARCHAR(100),
 description VARCHAR(270)
 
 )
-SELECT * FROM Netflix;
---counts total number of shows
-SELECT
-COUNT(*) as total_content
-FROM Netflix;
-
---counts the different type of content we have
-SELECT
-DISTINCT type as Different
-FROM Netflix
+Select * FROM Netflix;
 
 -- Netflix Data Analysis using SQL
 -- Solutions of 15 business problems
